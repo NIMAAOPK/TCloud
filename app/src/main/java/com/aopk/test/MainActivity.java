@@ -1,4 +1,4 @@
-package com.aopk.test;
+﻿package com.aopk.test;
 
 import android.content.Intent;
 import android.media.Image;
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvProgress;
     private ImageView img;
     private Button btnDownload;
+private ;
 
     CompositeDisposable disposable = new CompositeDisposable();
 
