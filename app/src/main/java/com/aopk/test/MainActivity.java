@@ -32,7 +32,10 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvProgress;
     private ImageView img;
     private Button btnDownload;
-private Test test;
+    private Test test;
+    private List<String> list;
+    priavte RecyclerView recyclerView;
+
 
     CompositeDisposable disposable = new CompositeDisposable();
 
